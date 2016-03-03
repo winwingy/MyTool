@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Russion - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\lxd\LOCALS~1\Temp\RSP176.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Russion.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\lxd\MyCppWorkSpace\Win32\day09\codes\Russion\Russion.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lxd\LOCALS~1\Temp\RSP176.tmp" 
+Creating temporary file "C:\DOCUME~1\lxd\LOCALS~1\Temp\RSP177.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Russion.pdb" /debug /machine:I386 /out:"Debug/Russion.exe" /pdbtype:sept 
+.\Debug\BaseShape.obj
+.\Debug\BSBmp.obj
+.\Debug\BSRect.obj
+.\Debug\CombinShape.obj
+.\Debug\CSHorVer.obj
+.\Debug\CSOne.obj
+.\Debug\CSRect.obj
+.\Debug\CSReVHV.obj
+.\Debug\CSTu.obj
+.\Debug\CSTwo.obj
+.\Debug\CSVer.obj
+.\Debug\CSVerHor.obj
+.\Debug\CSVHV.obj
+.\Debug\Game.obj
+.\Debug\Russion.obj
+.\Debug\StdAfx.obj
+.\Debug\resource.res
+]
+Creating command line "link.exe @C:\DOCUME~1\lxd\LOCALS~1\Temp\RSP177.tmp"
+<h3>Output Window</h3>
+Compiling...
+Russion.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\lxd\LOCALS~1\Temp\RSP178.tmp" with contents
+[
+/nologo /o"Debug/Russion.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\BaseShape.sbr
+.\Debug\BSBmp.sbr
+.\Debug\BSRect.sbr
+.\Debug\CombinShape.sbr
+.\Debug\CSHorVer.sbr
+.\Debug\CSOne.sbr
+.\Debug\CSRect.sbr
+.\Debug\CSReVHV.sbr
+.\Debug\CSTu.sbr
+.\Debug\CSTwo.sbr
+.\Debug\CSVer.sbr
+.\Debug\CSVerHor.sbr
+.\Debug\CSVHV.sbr
+.\Debug\Game.sbr
+.\Debug\Russion.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\lxd\LOCALS~1\Temp\RSP178.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Russion.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
