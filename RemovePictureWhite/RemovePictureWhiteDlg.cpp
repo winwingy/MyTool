@@ -136,8 +136,10 @@ bool RemoveBlankBitmap(const std::wstring picturePath,
     {
         for (int w = 0; w < width; ++w)
         {
-            DWORD* val = reinterpret_cast<DWORD*>(
-                lockData + (w + h*width)*4);
+//             DWORD* val = reinterpret_cast<DWORD*>(
+//                 lockData + (w + h*width)*4);
+			DWORD* val = reinterpret_cast<DWORD*>(
+				lockData + w * 4 + h * width * 4);
             if (*val == 0xffffffff)
             {
                 *val = 0;

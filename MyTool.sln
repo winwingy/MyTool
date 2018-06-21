@@ -69,6 +69,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DrawDiffFontForKugou", "Dra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Md5CalFile2", "Md5CalFile2\Md5CalFile2.vcxproj", "{4963692D-1AFC-4D89-904E-0A1D9F576627}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test4", "test4\test4.vcxproj", "{C3A1A203-BEE6-4D0A-BF17-5C9D83F710AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test5", "test5\test5.vcxproj", "{0FFC5525-F6DB-4A27-B4D0-B209518F7499}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -274,6 +278,18 @@ Global
 		{4963692D-1AFC-4D89-904E-0A1D9F576627}.Release|Win32.Build.0 = Release|Win32
 		{4963692D-1AFC-4D89-904E-0A1D9F576627}.Template|Win32.ActiveCfg = Release|Win32
 		{4963692D-1AFC-4D89-904E-0A1D9F576627}.Template|Win32.Build.0 = Release|Win32
+		{C3A1A203-BEE6-4D0A-BF17-5C9D83F710AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3A1A203-BEE6-4D0A-BF17-5C9D83F710AB}.Debug|Win32.Build.0 = Debug|Win32
+		{C3A1A203-BEE6-4D0A-BF17-5C9D83F710AB}.Release|Win32.ActiveCfg = Release|Win32
+		{C3A1A203-BEE6-4D0A-BF17-5C9D83F710AB}.Release|Win32.Build.0 = Release|Win32
+		{C3A1A203-BEE6-4D0A-BF17-5C9D83F710AB}.Template|Win32.ActiveCfg = Release|Win32
+		{C3A1A203-BEE6-4D0A-BF17-5C9D83F710AB}.Template|Win32.Build.0 = Release|Win32
+		{0FFC5525-F6DB-4A27-B4D0-B209518F7499}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0FFC5525-F6DB-4A27-B4D0-B209518F7499}.Debug|Win32.Build.0 = Debug|Win32
+		{0FFC5525-F6DB-4A27-B4D0-B209518F7499}.Release|Win32.ActiveCfg = Release|Win32
+		{0FFC5525-F6DB-4A27-B4D0-B209518F7499}.Release|Win32.Build.0 = Release|Win32
+		{0FFC5525-F6DB-4A27-B4D0-B209518F7499}.Template|Win32.ActiveCfg = Release|Win32
+		{0FFC5525-F6DB-4A27-B4D0-B209518F7499}.Template|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
